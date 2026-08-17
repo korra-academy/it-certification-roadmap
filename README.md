@@ -46,11 +46,22 @@ Maintained by [Korra Academy](https://korra.academy/) — the team behind **[Kor
 | Network+ | 6–10 weeks | The single highest-leverage foundation cert |
 | Security+ | 6–10 weeks | HR-filter cert for entry cyber & many gov roles |
 | CCNA | 10–16 weeks | Labs matter more than videos (Packet Tracer is free) |
+| Linux+ | 8–12 weeks | Live in a Linux VM daily; the exam rewards muscle memory |
 | AZ-900 / AWS CP | 2–4 weeks | Fundamentals; fine as a first-ever cert for cloud-curious |
 | AZ-104 / AWS SAA | 8–12 weeks | Do real console labs; question dumps teach you nothing |
 | CISSP | 12–20 weeks | Requires ~5 yrs paid experience for full status |
 
 Rule of thumb: **1 hour of hands-on lab per hour of video/reading.** Certs without labs evaporate in interviews.
+
+## Cert profile: CompTIA Linux+
+
+**Where it fits:** after Network+, on the way to cloud, DevOps, or security roles — anywhere the terminal is your day job. Most servers, containers, and cloud instances run Linux, so this is the quiet prerequisite behind half the map above.
+
+**What it actually tests:** managing a Linux system for real — users and permissions, services, storage, networking from the command line, shell scripting, and increasingly containers and Git. It's a doing exam, not a memorising exam.
+
+**How to prepare:** install Linux somewhere you'll touch it every day (an old laptop, a VirtualBox VM, or WSL on Windows — all free). Do every task from the terminal, break things, fix them from the logs. A course alone won't build the muscle memory the exam checks for.
+
+**Worth knowing:** LPIC-1 covers similar ground across two exams and employers treat the two roughly equally. Either badge works; the fluency behind it is what interviews test.
 
 ## How to study for any of them
 
