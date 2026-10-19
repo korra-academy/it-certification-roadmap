@@ -47,6 +47,7 @@ Maintained by [Korra Academy](https://korra.academy/) — the team behind **[Kor
 | Security+ | 6–10 weeks | HR-filter cert for entry cyber & many gov roles |
 | CCNA | 10–16 weeks | Labs matter more than videos (Packet Tracer is free) |
 | Linux+ | 8–12 weeks | Live in a Linux VM daily; the exam rewards muscle memory |
+| CySA+ | 8–12 weeks | Blue-team analyst cert; log reading and triage, not theory |
 | AZ-900 / AWS CP | 2–4 weeks | Fundamentals; fine as a first-ever cert for cloud-curious |
 | AZ-104 / AWS SAA | 8–12 weeks | Do real console labs; question dumps teach you nothing |
 | CISSP | 12–20 weeks | Requires ~5 yrs paid experience for full status |
@@ -62,6 +63,16 @@ Rule of thumb: **1 hour of hands-on lab per hour of video/reading.** Certs witho
 **How to prepare:** install Linux somewhere you'll touch it every day (an old laptop, a VirtualBox VM, or WSL on Windows — all free). Do every task from the terminal, break things, fix them from the logs. A course alone won't build the muscle memory the exam checks for.
 
 **Worth knowing:** LPIC-1 covers similar ground across two exams and employers treat the two roughly equally. Either badge works; the fluency behind it is what interviews test.
+
+## Cert profile: CompTIA CySA+
+
+**Where it fits:** after Security+, once you've spent time in a SOC, helpdesk-with-security-duties, or a serious homelab. It's the "I can actually do the job" step between the entry badge and the expensive management-track exams. CompTIA suggests a few years of hands-on experience; there's no hard prerequisite, but the exam assumes you already think like an analyst.
+
+**What it actually tests:** the day-to-day of a security analyst — reading logs and alerts, spotting what's noise and what isn't, vulnerability management, incident response steps, and writing up findings for people who weren't there. Expect performance-based questions where you're handed output from a tool and asked what it means and what to do next.
+
+**How to prepare:** build a small detection lab — one Linux VM shipping logs to a free SIEM (Wazuh or Security Onion), one deliberately noisy target. Generate traffic, scan it, break it, then find the evidence in the logs. Learn to read Nmap, Wireshark, and vulnerability-scanner output cold. Keep a notebook of every alert you investigated and what the answer turned out to be; that notebook is your interview portfolio too.
+
+**Worth knowing:** CySA+ is defensive — it's the blue-team counterpart to hands-on offensive certs like eJPT. If you want to pentest, go that way instead; if you want a SOC analyst or threat-hunting role, this is the one hiring managers recognise. Like Security+, it expires after three years unless you renew with continuing-education credits.
 
 ## How to study for any of them
 
